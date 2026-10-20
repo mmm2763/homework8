@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html>
+    <!-- head section -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Personal Portfolio using HTML Text Formatting Elements
+
+        </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <!-- body section -->
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1><u>Marisa Manheimer</u></h1>
+                <h2><u>Computer Science Student at NAU</u></h2>
+                <div id="greeting"></div>                
+            </div>
+
+            <div class="sidebar">
+                <div class="nav">
+                    <h3><u>Navigation</u></h3>
+                <div class="nav">
+                    <a href="#summary-section" class="summary-button">Summary</a>
+                </div>
+                <div class="nav">
+                    <a href="#skills-section" class="skills-button">Skills</a>
+                </div>
+                <div class ="nav">
+                    <a href="#projects-section" class="projects-button">Project Showcase</a>
+                </div>
+                <div class ="nav">
+                    <a href="#education-section" class="education-button">Education and Experience</a>
+                </div>
+                </div>
+            </div>
+            
+            <div class="main-content">
+                <div class="content">
+                    <section id="summary-section">
+                        <h3>Summary</h3>
+                        <p>
+                            I am a Computer Science student at Northern Arizona University. I am Navajo and grew up on the Navajo Reservation. I have taken classes and completed project for C and Python coding languages. I enjoy video games, drawing, and watching Youtube.
+                        </p>                    
+                    </section>
+                </div>
+                <div class="content">
+                    <section id="skills-section">
+                        <div class="skills-text">
+                            <h3>Skills</h3>
+                        </div>
+                        <div class="skills-text">
+                            <ul>
+                            <li>HTML Text Formating Tags</li>
+                            <ul>
+                                <li>Bold</li>
+                                    <ul>
+                                        <li>The b tag allows for a text to appear in bold</li>
+                                        <ul>
+                                            <li><b>Example: This is text that is in bold.</b></li>
+                                        </ul>
+                                    </ul>
+                            </ul>
+                        </div>
+                        <div class="skills-text">
+                            <ul>
+                                <li>Italic
+                                <ul>
+                                    <li>The i tag allows for the text to appear in italic.</li>
+                                    <ul>
+                                        <li>Example: <i>This is text that is in italic.</i></li>
+                                    </ul>
+                                </ul>   
+                                </li>
+                            </ul>                            
+                        </div>
+                        <div class="skills-text">
+                            <ul>
+                                <li>Underline
+                                <ul>
+                                    <li>The u tag underlines a text.
+                                    <ul>
+                                        <li>Example: <u>This is a text that is underlined.</u></li>
+                                    </ul>
+                                    </li>
+                                </ul>
+                                </li>
+                            </ul>                            
+                        </div>
+                        <div class="skills-text">
+                            <ul>
+                                <li>Strikethrough
+                                <ul>
+                                    <li>The s tag creates a strike through a piece of text
+                                    <ul>
+                                        <li>Example: <s>This is a text that has a strike through.</s></li>
+                                    </ul>
+                                    </li>
+                                </ul>
+                                </li>
+                            </ul>                            
+                        </div>
+                        <div class="skills-text">
+                            <ul>
+                                <li>Subscript
+                                <ul>
+                                    <li>The sub tag creates a subscript.
+                                    <ul>
+                                        <li>Example: H<sub>2</sub>0</li>
+                                    </ul>
+                                    </li>
+                                </ul>
+                                </li>
+                            </ul>                            
+                        </div>
+                        <div class="skills-text">
+                            <ul>
+                                <li>Superscript
+                                <ul>
+                                    <li>The sup tag creates a superscript.
+                                    <ul>
+                                        <li>Example: x<sup>2</sup></li>
+                                    </ul>
+                                    </li>
+                                </ul>
+                                </li>
+                            </ul>                            
+                        </div>
+                        <div class="skills-text">
+                            <ul>
+                                <li>Line Break
+                                <ul>
+                                    <li>The br tag creates a break in text.
+                                    <ul>
+                                        <li>Example: This is <br> a line break</li>
+                                    </ul>
+                                    </li>
+                                </ul>
+                                </li>
+                            </ul>                            
+                        </div>
+                        <div class="skills-text">
+                            <ul>
+                                <li>Python Language</li>
+                                <li>C Language</li>
+                                <li>Linux</li> 
+                            </ul>                                                       
+                        <div class="skills-text">
+                            <ul>
+                                <div id="skillList"></div>  
+                            </ul>                          
+                        </div>
+                            <input type="text" id="skillInput" placeholder="Enter a skill">
+                            <button id="addSkillButton">Add Skill</button>                        
+                        </div>
+                    </section>
+                </div>
+
+                <div class="content">
+                    <section id="projects-section">
+                        <div class="project-text1">
+                            <h3>Project Deadlines</h3>
+                            <div id="projectList"></div>                             
+                        </div>
+                       
+                        <div class="project-text1">
+                            <h3>Project Showcase</h3>
+                        </div>
+                        <div class="project-text2">
+                            <h4>Movie Ranking Project</h4>
+                            <p>In this project, in was an introduction to the use of HTML. It included basic tags that we learned in the first week of class</p>
+                            <img src="./movie.png" alt="The Best Movies According to Me" width="175" height="175"/>                              
+                        </div>                     
+
+                        <div class="project-text3">
+                            <h4>Birthday Invite Project</h4>
+                            <p>In this project, we went into more depths and explore the concept of adding images and links into the webpage.</p>
+                            <img src="./birthday.png" alt="Birthday Invite" width="175" height="175"/>                        
+                        </div>
+
+                        <div class="project-text3">
+                            <h4>Something Project</h4>
+                            <p>A project that does something and something because something told me to do something.</p>
+                            <div id="deadline"></div>
+                        </div>
+                    </section>
+                </div>   
+
+                <div class="content">
+                    <section id="education-section">
+                            <h3>Education and Experience</h3>                            
+
+
+                            <table>
+                            <thead>
+                                <tr>
+                                    <th>My Education</th>
+                                    <th>My Experience</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Current student at Northern Arizona University</td>
+                                    <td>I have created few Projects using Python and C.</td>
+                                </tr>
+                            </tbody>
+                        </table>   
+                    </section>
+                    
+                </div>
+
+            </div>
+            <div class="footer">
+                <h3>Contact Information</h3>
+                <div class="con-buttons">
+                    <button id="downloadResume">
+                        <a href="https://docs.google.com/document/d/1N_Y7AQ5uhUGLh2zx8n6tq-IwwsakHuoRxMw4gv50tKA/export?format=pdf"> My Resume</a>
+                    </button>
+                    <div id="downloadCount">Downloads: 0</div>
+                </div>                
+                <div class="con-buttons">
+                <br>
+                    <button><a href="./contact.html"> Contact Me</a></button>   
+                </div>             
+            </div>                
+        </div>
+        <script src="app.js">
+        </script>
+    </body>
+</html>
